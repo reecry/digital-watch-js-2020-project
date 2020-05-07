@@ -10,9 +10,12 @@ body{
 
 .container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 95vh;
+    align-content: center;
+
 }
 
 .container > div{
@@ -44,4 +47,8 @@ body{
     color: #A2A2A2;
     text-transform: capitalize;
     font-size: .8em;
+}
+
+.creator-details{
+    text-align: center;
 }
