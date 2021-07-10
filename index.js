@@ -5,7 +5,7 @@ let digitalClock = () => {
 
 
     let hours = date.getHours();
-    let amorpm = hours >= 12 ? 'pm' : 'am';
+    let amorpm = hours >= 12 ? 'Pm' : 'Am';
 
         if (hours > 12) {
             hours -= 12;
